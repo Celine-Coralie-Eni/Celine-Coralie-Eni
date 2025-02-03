@@ -12,4 +12,5 @@ jobs:
               "content": "🚀 New push detected in the repository! **${{ github.actor }}** made a **${{ github.action }}** on **${{ github.repository }}**"
             }' \
             "${{ secrets.NOTIFY }}"
+            
   
